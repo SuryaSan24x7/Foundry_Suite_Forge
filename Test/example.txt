@@ -1,0 +1,23 @@
+waghm@Dell-G15-i5-RTX3050 MINGW64 ~/Music/Repo/Fourge_Sol
+$ cd test
+
+waghm@Dell-G15-i5-RTX3050 MINGW64 ~/Music/Repo/Fourge_Sol/test (master)
+$ forge build
+[⠊] Compiling...
+[⠆] Compiling 27 files with 0.8.25
+[⠔] Solc 0.8.25 finished in 2.22s
+Compiler run successful!
+
+waghm@Dell-G15-i5-RTX3050 MINGW64 ~/Music/Repo/Fourge_Sol/test (master)
+$ forge create --rpc-url "https://pool.arkhia.io/hedera/testnet/json-rpc/v1/U90fF878adz9fdf5261af6z97ea3F928" --private-key "Private_Key" --verify --verifier sourcify --verifier-url https://server-verify.hashscan.io src/Counter.sol:Counter
+[⠒] Compiling...
+No files changed, compilation skipped
+Deployer: 0xeC90Bd09a8F48D25480Efaf62ba8fc46ec7522B3
+Deployed to: 0xD601292245a05cB520eeC7F6264c4C5579bad928
+Transaction hash: 0x67ae3f55ee87bb52bd9138da5946dd63b0a1a675344d3a40104b7fd8f0fa0a98
+Starting contract verification...
+Waiting for sourcify to detect contract deployment...
+Start verifying contract `0xD601292245a05cB520eeC7F6264c4C5579bad928` deployed on 296
+
+Submitting verification for [Counter] "0xD601292245a05cB520eeC7F6264c4C5579bad928".
+Contract successfully verified
