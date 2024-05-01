@@ -1,5 +1,5 @@
 # Foundry_Suite_Forge
-# Forge for Hedera Hashgraph Soidity Smart Contract Deployment and Verification.
+# Forge for Soidity Smart Contract Deployment and Verification.
 Forge is an integral part of the Foundry suite, designed to enhance the development of smart contracts on Ethereum and other EVM-compatible blockchains. Solidity, the primary language for Ethereum smart contracts, benefits greatly from Forge's capabilities.
 
 ## Key Benefits of Using Forge
